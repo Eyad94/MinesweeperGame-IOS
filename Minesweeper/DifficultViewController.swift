@@ -37,7 +37,8 @@ class DifficultViewController: UIViewController {
     }
     
     
-    @IBAction func MeduimButton(_ sender: Any) {
+    @IBAction func MeduimButton(_ sender: UIButton) {
+        sender.pulsate()
         StartGame(difficult: 2)
 
     }

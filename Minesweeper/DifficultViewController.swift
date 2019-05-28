@@ -44,7 +44,8 @@ class DifficultViewController: UIViewController {
     }
     
     
-    @IBAction func HardButton(_ sender: Any) {
+    @IBAction func HardButton(_ sender: UIButton) {
+        sender.flash()
         StartGame(difficult: 3)
 
     }

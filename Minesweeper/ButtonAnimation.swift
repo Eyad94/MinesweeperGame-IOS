@@ -16,7 +16,7 @@ extension UIButton {
     func shake() {
         
         let shake = CABasicAnimation(keyPath: "position")
-        shake.duration = 0.1
+        shake.duration = 0.4
         shake.repeatCount = 2
         shake.autoreverses = true
         
@@ -33,6 +33,7 @@ extension UIButton {
     }
     
     
+    
     func pulsate() {
         
         let pulse = CASpringAnimation(keyPath: "transform.scale")
@@ -47,7 +48,20 @@ extension UIButton {
         layer.add(pulse, forKey: "pulse")
     }
     
-
+    
+    
+    func flash() {
+        
+        let flash = CABasicAnimation(keyPath: "opacity")
+        flash.duration = 0.5
+        flash.fromValue = 1
+        flash.toValue = 0.1
+        flash.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        flash.autoreverses = true
+        flash.repeatCount = 3
+        
+        layer.add(flash, forKey: nil)
+    }
     
     
 }

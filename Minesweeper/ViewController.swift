@@ -10,6 +10,7 @@ import UIKit
 import CoreLocation
 
 
+
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UIGestureRecognizerDelegate{
     
     var userName = ""

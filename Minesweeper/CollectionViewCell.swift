@@ -15,6 +15,7 @@ class CollectionViewCell: UICollectionViewCell {
     
     
     
+    
     func updateItemInCollectionView(item: ItemInCollectionView) -> Void {
         let itemState = item.GetItemCurrentState()
         let itemNumber = item.GetItemCurrentValue()

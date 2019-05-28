@@ -9,6 +9,7 @@
 import UIKit
 import CoreLocation
 
+
 class DifficultViewController: UIViewController {
 
     var userName = ""

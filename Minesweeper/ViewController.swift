@@ -277,7 +277,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     
     func setupLocationManager() {
-        locationManager.delegate = self as! CLLocationManagerDelegate
+        locationManager.delegate = self as CLLocationManagerDelegate
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
     }
     

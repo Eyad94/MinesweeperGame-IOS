@@ -28,7 +28,7 @@ class StartViewController: UIViewController {
     
     @IBAction func PlayAgainButton(_ sender: UIButton) {
         
-        sender.pulsate()
+        sender.shake()
         userName = userNameTextField.text!
         
         if(userName.isEmpty){

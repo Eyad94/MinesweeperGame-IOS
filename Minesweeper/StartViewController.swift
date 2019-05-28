@@ -26,8 +26,9 @@ class StartViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func PlayAgainButton(_ sender: Any) {
+    @IBAction func PlayAgainButton(_ sender: UIButton) {
         
+        sender.pulsate()
         userName = userNameTextField.text!
         
         if(userName.isEmpty){

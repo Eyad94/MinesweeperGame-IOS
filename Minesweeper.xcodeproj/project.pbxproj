@@ -25,6 +25,7 @@
 		8655DA2B229B64B4002A1361 /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8655DA2A229B64B4002A1361 /* ScoresViewController.swift */; };
 		8655DA2D229B90D0002A1361 /* minesweeper.png in Resources */ = {isa = PBXBuildFile; fileRef = 8655DA2C229B90D0002A1361 /* minesweeper.png */; };
 		8697EAD82262872F00FDDC26 /* ItemInCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697EAD72262872F00FDDC26 /* ItemInCollectionView.swift */; };
+		86EB8145229DEF810081228A /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EB8144229DEF810081228A /* ButtonAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		8655DA2A229B64B4002A1361 /* ScoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresViewController.swift; sourceTree = "<group>"; };
 		8655DA2C229B90D0002A1361 /* minesweeper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minesweeper.png; sourceTree = "<group>"; };
 		8697EAD72262872F00FDDC26 /* ItemInCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemInCollectionView.swift; sourceTree = "<group>"; };
+		86EB8144229DEF810081228A /* ButtonAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				8609F43B2261D38F001D801C /* Info.plist */,
 				8655DA2C229B90D0002A1361 /* minesweeper.png */,
 				8609F4332261D38F001D801C /* Minesweeper.xcdatamodeld */,
+				86EB8144229DEF810081228A /* ButtonAnimation.swift */,
 			);
 			path = Minesweeper;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				847DF6A42263761E00065B19 /* DifficultViewController.swift in Sources */,
 				847DF6A22263745200065B19 /* StartViewController.swift in Sources */,
 				849BDBE2229C1ED2003B7A2E /* ScoreCell.swift in Sources */,
+				86EB8145229DEF810081228A /* ButtonAnimation.swift in Sources */,
 				8609F42F2261D38F001D801C /* ViewController.swift in Sources */,
 				8609F42D2261D38F001D801C /* AppDelegate.swift in Sources */,
 				8697EAD82262872F00FDDC26 /* ItemInCollectionView.swift in Sources */,

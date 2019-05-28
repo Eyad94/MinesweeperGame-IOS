@@ -31,7 +31,8 @@ class DifficultViewController: UIViewController {
     }
     
     
-    @IBAction func EasyButton(_ sender: Any) {
+    @IBAction func EasyButton(_ sender: UIButton) {
+        sender.shake()
         StartGame(difficult: 1)
     }
     

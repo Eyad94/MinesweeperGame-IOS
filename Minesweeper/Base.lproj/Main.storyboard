@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QWz-q3-QDH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QWz-q3-QDH">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -401,15 +401,6 @@
                                     <constraint firstAttribute="width" constant="414" id="ekY-cd-BYf"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzz-00-5HX">
-                                <rect key="frame" x="179" y="400" width="57" height="48"/>
-                                <color key="backgroundColor" red="0.45422203433055014" green="0.60227406209696777" blue="0.72336632013320923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Play"/>
-                                <connections>
-                                    <action selector="PlayAgainButton:" destination="QWz-q3-QDH" eventType="touchUpInside" id="xSn-tZ-pnB"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M8P-Bd-hcx">
                                 <rect key="frame" x="132" y="320" width="150" height="30"/>
                                 <constraints>
@@ -427,6 +418,15 @@
                                     <constraint firstAttribute="height" constant="128" id="Zl7-w5-buO"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzz-00-5HX">
+                                <rect key="frame" x="172" y="400" width="70" height="50"/>
+                                <color key="backgroundColor" red="0.45422203433055014" green="0.60227406209696777" blue="0.72336632013320923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="PlayAgainButton:" destination="QWz-q3-QDH" eventType="touchUpInside" id="xSn-tZ-pnB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Onu-i7-MZ0" secondAttribute="trailing" id="06V-4Z-JHg"/>

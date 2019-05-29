@@ -236,8 +236,8 @@
                                     <constraint firstAttribute="height" constant="736" id="bhu-8R-Yex"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfs-ff-QBl">
-                                <rect key="frame" x="151" y="198" width="105" height="78"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfs-ff-QBl">
+                                <rect key="frame" x="207" y="198" width="0.0" height="78"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -251,12 +251,6 @@
                                     <action selector="PlayAgainButton:" destination="3Pz-NR-kJG" eventType="touchUpInside" id="7GC-8a-x67"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1W-bw-Zhk">
-                                <rect key="frame" x="180" y="109" width="55" height="39"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
-                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qks-9s-KJC">
                                 <rect key="frame" x="154" y="444" width="107" height="48"/>
                                 <color key="backgroundColor" red="0.65943052820000003" green="0.68019782849999999" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -266,17 +260,22 @@
                                     <action selector="ScoresButton:" destination="3Pz-NR-kJG" eventType="touchUpInside" id="3VN-Dw-tVB"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1W-bw-Zhk">
+                                <rect key="frame" x="149" y="129" width="112" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="hRa-kW-Xng" secondAttribute="trailing" id="4Sr-YA-4W2"/>
                             <constraint firstItem="0vP-m3-Odk" firstAttribute="centerY" secondItem="COV-NK-YeD" secondAttribute="centerY" id="7SL-DE-9i1"/>
-                            <constraint firstItem="e1W-bw-Zhk" firstAttribute="top" secondItem="eke-Fl-kt3" secondAttribute="bottom" constant="89" id="9zj-U9-2Yi"/>
                             <constraint firstItem="Qks-9s-KJC" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="BTW-uD-lam"/>
                             <constraint firstItem="FXM-ip-FMZ" firstAttribute="top" secondItem="hRa-kW-Xng" secondAttribute="bottom" id="D6E-fu-pRF"/>
                             <constraint firstItem="0vP-m3-Odk" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="FP2-Fi-WkA"/>
                             <constraint firstItem="Xfs-ff-QBl" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="Fc3-tD-uZz"/>
-                            <constraint firstItem="e1W-bw-Zhk" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="Qvj-aq-9Hd"/>
                             <constraint firstItem="hRa-kW-Xng" firstAttribute="top" secondItem="COV-NK-YeD" secondAttribute="top" id="UEB-ad-1lp"/>
                             <constraint firstItem="hRa-kW-Xng" firstAttribute="leading" secondItem="COV-NK-YeD" secondAttribute="leading" id="YKA-i4-z6o"/>
                             <constraint firstItem="Qks-9s-KJC" firstAttribute="top" secondItem="0vP-m3-Odk" secondAttribute="bottom" constant="50" id="qet-OD-x2q"/>
@@ -288,7 +287,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bS1-8N-yhO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2271" y="122"/>
+            <point key="canvasLocation" x="2269.5652173913045" y="121.46739130434784"/>
         </scene>
         <!--Difficult View Controller-->
         <scene sceneID="4p0-fC-Uka">
@@ -352,16 +351,6 @@
                                 </state>
                                 <connections>
                                     <action selector="EasyButton:" destination="uQB-NV-KVZ" eventType="touchUpInside" id="TeZ-cx-uFz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOi-PT-0pu">
-                                <rect key="frame" x="137" y="564" width="140" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.65943052820000003" green="0.68019782849999999" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Scores"/>
-                                <connections>
-                                    <action selector="ScoresButton:" destination="uQB-NV-KVZ" eventType="touchUpInside" id="Zud-Hq-ad9"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Difficulty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tl2-M9-8ym">

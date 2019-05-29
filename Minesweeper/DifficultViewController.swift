@@ -67,18 +67,6 @@ class DifficultViewController: UIViewController {
     }
     
     
-    
-    
-    @IBAction func ScoresButton(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        
-        if let vc = storyboard.instantiateViewController(withIdentifier: "ScoresViewController")as? ScoresViewController{
-            
-            self.present(vc, animated: true, completion: nil)
-        }
-    }
-    
-    
 }
 
 

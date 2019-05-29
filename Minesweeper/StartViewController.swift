@@ -26,6 +26,20 @@ class StartViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
+    @IBAction func ButtonScores(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        if let vc = storyboard.instantiateViewController(withIdentifier: "ScoresViewController")as? ScoresViewController{
+            
+            self.present(vc, animated: true, completion: nil)
+        }
+
+    }
+    
+    
+    
     @IBAction func PlayAgainButton(_ sender: UIButton) {
         
         sender.shake()

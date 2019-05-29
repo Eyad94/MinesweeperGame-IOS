@@ -2,7 +2,7 @@
 //  ScoreCell.swift
 //  Minesweeper
 //
-//  Created by Ali on 1/04/2019.
+//  Created by Ali on 1/05/2019.
 //  Copyright © 2019 Afeka. All rights reserved.
 //
 

@@ -245,13 +245,6 @@
                                     <action selector="PlayAgainButton:" destination="3Pz-NR-kJG" eventType="touchUpInside" id="7GC-8a-x67"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1W-bw-Zhk">
-                                <rect key="frame" x="132" y="53" width="150" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
-                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qks-9s-KJC">
                                 <rect key="frame" x="154" y="444" width="107" height="48"/>
                                 <color key="backgroundColor" red="0.65943052820000003" green="0.68019782849999999" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -261,9 +254,14 @@
                                     <action selector="ScoresButton:" destination="3Pz-NR-kJG" eventType="touchUpInside" id="3VN-Dw-tVB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfs-ff-QBl">
-                                <rect key="frame" x="132" y="179" width="150" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfs-ff-QBl">
+                                <rect key="frame" x="207" y="179" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1W-bw-Zhk">
+                                <rect key="frame" x="180" y="132" width="55" height="39"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -271,14 +269,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="e1W-bw-Zhk" firstAttribute="top" secondItem="eke-Fl-kt3" secondAttribute="bottom" constant="112" id="0ke-aj-V54"/>
                             <constraint firstAttribute="trailing" secondItem="hRa-kW-Xng" secondAttribute="trailing" id="4Sr-YA-4W2"/>
                             <constraint firstItem="0vP-m3-Odk" firstAttribute="centerY" secondItem="COV-NK-YeD" secondAttribute="centerY" id="7SL-DE-9i1"/>
                             <constraint firstItem="Qks-9s-KJC" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="BTW-uD-lam"/>
                             <constraint firstItem="FXM-ip-FMZ" firstAttribute="top" secondItem="hRa-kW-Xng" secondAttribute="bottom" id="D6E-fu-pRF"/>
                             <constraint firstItem="0vP-m3-Odk" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="FP2-Fi-WkA"/>
+                            <constraint firstItem="Xfs-ff-QBl" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="Kza-0a-tD1"/>
+                            <constraint firstItem="e1W-bw-Zhk" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="TMs-ub-AZQ"/>
                             <constraint firstItem="hRa-kW-Xng" firstAttribute="top" secondItem="COV-NK-YeD" secondAttribute="top" id="UEB-ad-1lp"/>
                             <constraint firstItem="hRa-kW-Xng" firstAttribute="leading" secondItem="COV-NK-YeD" secondAttribute="leading" id="YKA-i4-z6o"/>
                             <constraint firstItem="Qks-9s-KJC" firstAttribute="top" secondItem="0vP-m3-Odk" secondAttribute="bottom" constant="50" id="qet-OD-x2q"/>
+                            <constraint firstItem="Xfs-ff-QBl" firstAttribute="top" secondItem="COV-NK-YeD" secondAttribute="top" constant="179" id="xEK-84-jAK"/>
                         </constraints>
                     </view>
                     <connections>

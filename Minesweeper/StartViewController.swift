@@ -28,7 +28,8 @@ class StartViewController: UIViewController {
     
     
     
-    @IBAction func ButtonScores(_ sender: Any) {
+    @IBAction func ButtonScores(_ sender: UIButton) {
+        sender.shake()
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
         if let vc = storyboard.instantiateViewController(withIdentifier: "ScoresViewController")as? ScoresViewController{

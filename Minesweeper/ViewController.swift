@@ -215,11 +215,13 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         if(gameManager.gameOver == true){
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0){
                 
-                //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ must delete
+                /*
+                //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
                 let s = Score(level: self.diffString , name: self.userName , time: self.timeCounter , latitude: self.latitude  , longitude: self.longitude)
                 Score.save(score: s)
-                //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ must delete
-
+                //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                */
+                
                 self.gameResult = "Lose"
                 self.endGame()
             }
@@ -227,9 +229,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         if(gameManager.winGame == true){
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0){
-                //----------------------------------------------- save user check in to get to table later in the score save method
-                //let s = Score(level: self.diffString , name: self.userName , time: self.timeCounter , latitude: self.latitude  , longitude: self.longitude)
-                //Score.save(score: s)
+                //----------------------------------------------- save user check in to get to table
+                let s = Score(level: self.diffString , name: self.userName , time: self.timeCounter , latitude: self.latitude  , longitude: self.longitude)
+                Score.save(score: s)
 
                 self.gameResult = "Winner"
                 self.endGame()

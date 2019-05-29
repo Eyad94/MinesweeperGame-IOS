@@ -18,6 +18,8 @@ class ResultGmaeViewController: UIViewController {
         
         ResultLabel.text = Result
 
+        @IBAction func ScoresButton(_ sender: Any) {
+        }
         // Do any additional setup after loading the view.
     }
 

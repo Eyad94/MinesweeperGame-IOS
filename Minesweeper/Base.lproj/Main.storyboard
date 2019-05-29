@@ -236,12 +236,6 @@
                                     <constraint firstAttribute="height" constant="736" id="bhu-8R-Yex"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfs-ff-QBl">
-                                <rect key="frame" x="207" y="198" width="0.0" height="78"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
-                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vP-m3-Odk">
                                 <rect key="frame" x="123" y="343" width="168" height="51"/>
                                 <color key="backgroundColor" red="0.6594305281688565" green="0.68019782849453647" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -251,6 +245,13 @@
                                     <action selector="PlayAgainButton:" destination="3Pz-NR-kJG" eventType="touchUpInside" id="7GC-8a-x67"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1W-bw-Zhk">
+                                <rect key="frame" x="149" y="20" width="112" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qks-9s-KJC">
                                 <rect key="frame" x="154" y="444" width="107" height="48"/>
                                 <color key="backgroundColor" red="0.65943052820000003" green="0.68019782849999999" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -260,8 +261,8 @@
                                     <action selector="ScoresButton:" destination="3Pz-NR-kJG" eventType="touchUpInside" id="3VN-Dw-tVB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1W-bw-Zhk">
-                                <rect key="frame" x="149" y="129" width="112" height="147"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfs-ff-QBl">
+                                <rect key="frame" x="163" y="175" width="84" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -275,7 +276,6 @@
                             <constraint firstItem="Qks-9s-KJC" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="BTW-uD-lam"/>
                             <constraint firstItem="FXM-ip-FMZ" firstAttribute="top" secondItem="hRa-kW-Xng" secondAttribute="bottom" id="D6E-fu-pRF"/>
                             <constraint firstItem="0vP-m3-Odk" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="FP2-Fi-WkA"/>
-                            <constraint firstItem="Xfs-ff-QBl" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="Fc3-tD-uZz"/>
                             <constraint firstItem="hRa-kW-Xng" firstAttribute="top" secondItem="COV-NK-YeD" secondAttribute="top" id="UEB-ad-1lp"/>
                             <constraint firstItem="hRa-kW-Xng" firstAttribute="leading" secondItem="COV-NK-YeD" secondAttribute="leading" id="YKA-i4-z6o"/>
                             <constraint firstItem="Qks-9s-KJC" firstAttribute="top" secondItem="0vP-m3-Odk" secondAttribute="bottom" constant="50" id="qet-OD-x2q"/>

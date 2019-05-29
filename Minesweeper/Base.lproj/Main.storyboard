@@ -243,7 +243,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vP-m3-Odk">
-                                <rect key="frame" x="124" y="343" width="168" height="51"/>
+                                <rect key="frame" x="123" y="343" width="168" height="51"/>
                                 <color key="backgroundColor" red="0.6594305281688565" green="0.68019782849453647" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <state key="normal" title=" Play again "/>
@@ -251,8 +251,8 @@
                                     <action selector="PlayAgainButton:" destination="3Pz-NR-kJG" eventType="touchUpInside" id="7GC-8a-x67"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1W-bw-Zhk">
-                                <rect key="frame" x="154" y="109" width="98" height="70"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1W-bw-Zhk">
+                                <rect key="frame" x="180" y="109" width="55" height="39"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -263,7 +263,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title=" Scores "/>
                                 <connections>
-                                    <action selector="ScoresButton:" destination="3Pz-NR-kJG" eventType="touchUpInside" id="Uzt-zx-dkd"/>
+                                    <action selector="ScoresButton:" destination="3Pz-NR-kJG" eventType="touchUpInside" id="3VN-Dw-tVB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -271,15 +271,15 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="hRa-kW-Xng" secondAttribute="trailing" id="4Sr-YA-4W2"/>
                             <constraint firstItem="0vP-m3-Odk" firstAttribute="centerY" secondItem="COV-NK-YeD" secondAttribute="centerY" id="7SL-DE-9i1"/>
+                            <constraint firstItem="e1W-bw-Zhk" firstAttribute="top" secondItem="eke-Fl-kt3" secondAttribute="bottom" constant="89" id="9zj-U9-2Yi"/>
                             <constraint firstItem="Qks-9s-KJC" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="BTW-uD-lam"/>
                             <constraint firstItem="FXM-ip-FMZ" firstAttribute="top" secondItem="hRa-kW-Xng" secondAttribute="bottom" id="D6E-fu-pRF"/>
                             <constraint firstItem="0vP-m3-Odk" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="FP2-Fi-WkA"/>
                             <constraint firstItem="Xfs-ff-QBl" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="Fc3-tD-uZz"/>
+                            <constraint firstItem="e1W-bw-Zhk" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="Qvj-aq-9Hd"/>
                             <constraint firstItem="hRa-kW-Xng" firstAttribute="top" secondItem="COV-NK-YeD" secondAttribute="top" id="UEB-ad-1lp"/>
                             <constraint firstItem="hRa-kW-Xng" firstAttribute="leading" secondItem="COV-NK-YeD" secondAttribute="leading" id="YKA-i4-z6o"/>
-                            <constraint firstItem="Xfs-ff-QBl" firstAttribute="top" secondItem="e1W-bw-Zhk" secondAttribute="bottom" constant="20" id="ekj-qd-QZm"/>
                             <constraint firstItem="Qks-9s-KJC" firstAttribute="top" secondItem="0vP-m3-Odk" secondAttribute="bottom" constant="50" id="qet-OD-x2q"/>
-                            <constraint firstItem="e1W-bw-Zhk" firstAttribute="centerX" secondItem="COV-NK-YeD" secondAttribute="centerX" id="tQ7-7X-kQd"/>
                         </constraints>
                     </view>
                     <connections>
